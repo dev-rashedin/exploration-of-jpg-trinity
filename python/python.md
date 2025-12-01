@@ -235,6 +235,36 @@ print(f"The minimum number is {min_num}")
  ```
 
 
+## String method
+
+```
+name = "rashedin islam"
+
+len(name) # Returns the length of the string
+
+name.upper() # Returns the string in upper case
+
+name.lower() # Returns the string in lower case
+
+name.find('s') # Returns the index of the specified string. It will give the first index. if it is not found, it returns -1
+
+name.rfind('a') # Returns the index of the specified string. It will give the last index. if it is not found, it returns -1
+
+name.capitalize()  # Returns the string in title case (the first letter of the string will be in upper case )
+
+name.title()  # Returns the string in title case (the first letter of each word will be in upper case )
+
+name.isdigit()  # Returns True if the string contains only digits
+
+name.isalpha()  # Returns True if the string contains only alphabetic characters
+
+name.isnumeric()  # Returns True if the string contains only digits
+
+name.count("a") # Returns the number of times a specified value occurs in a string
+
+number.replace("", "-") # Replaces all occurrences of a specified value with another value
+```
+
 ---
 
 ## Example Program Using Everything
