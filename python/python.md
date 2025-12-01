@@ -53,31 +53,109 @@ This design explains why Python is slower than C but highly flexible, easy to de
 
 ## 4. Python Basics
 
-### 4.1 Variables and Data Types
+Python is simple, but powerful. This section explains its core building blocks in beginner‑friendly language with examples.
 
-- Variable = A container for a value (string, number, object, etc.)
-- Variables are case-sensitive
+---
 
+## 4.1 Variables and Data Types
 
+A **variable** is a container that stores a value.  
+Think of it like a labeled box where you keep information.
+
+### Key Points
+- Variables store data such as text, numbers, true/false values, lists, etc.
+- Variables are **case‑sensitive** (`name` and `Name` are different).
+- Python uses **dynamic typing**, meaning you don’t have to declare a type.
+
+### Example
 ```python
-name = "Alice"   # string
-age = 25         # integer
-height = 5.7     # float
-is_student = True # boolean
+name = "Alice"       # string
+age = 25             # integer
+height = 5.7         # float
+is_student = True    # boolean
 ```
 
-### Typecasting
-- the process of converting a variable from one type to another data type
-- str(), int(), float(), bool()
+---
 
-### input() 
-- A function that prompts the user to enter data
-- Returns the entered data as string
+## Typecasting
 
-### 4.2 Operators
-- Arithmetic: `+`, `-`, `*`, `/`, `%`, `**`
-- Comparison: `==`, `!=`, `<`, `>`, `<=`, `>=`
-- Logical: `and`, `or`, `not`
+**Typecasting** means converting one data type into another.
+
+### Built‑in Functions
+- `str()` → convert to string  
+- `int()` → convert to integer  
+- `float()` → convert to floating number  
+- `bool()` → convert to boolean  
+
+### Example
+```python
+age = "25"
+age_number = int(age)   # "25" → 25 (integer)
+print(type(age_number))
+```
+
+---
+
+## input()
+
+`input()` allows the user to enter data from the keyboard.
+
+- Always returns data as a **string**.
+- Convert it using typecasting if needed.
+
+### Example
+```python
+name = input("Enter your name: ")
+age = int(input("Enter your age: "))  # convert to integer
+print("Hello,", name)
+print("You are", age, "years old")
+```
+
+---
+
+## 4.2 Operators
+
+Operators perform actions on values.
+
+### Arithmetic Operators
+| Operator | Meaning      | Example |
+|---------|--------------|---------|
+| +       | Add          | 3 + 2   |
+| -       | Subtract     | 5 - 1   |
+| *       | Multiply     | 2 * 4   |
+| /       | Divide       | 9 / 2   |
+| %       | Modulus      | 10 % 3 → 1 |
+| **      | Power        | 2 ** 3 → 8 |
+
+### Comparison Operators
+Used to compare values (returns True or False):
+
+`==`, `!=`, `<`, `>`, `<=`, `>=`
+
+### Logical Operators
+- `and` → both conditions must be True  
+- `or` → at least one condition True  
+- `not` → reverses True/False  
+
+---
+
+## Example Program Using Everything
+```python
+name = input("Your name: ")
+
+age = int(input("Your age: "))
+
+if age >= 18 and age <= 60:
+    print("Hello", name, "- You are an adult.")
+elif age > 60:
+    print("Hello", name, "- You are a senior.")
+else:
+    print("Hello", name, "- You are a minor.")
+
+print("Age squared:", age ** 2)
+print("Is your age even?", age % 2 == 0)
+```
+
 
 ### 4.3 Control Flow
 ```python
