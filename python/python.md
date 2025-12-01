@@ -70,6 +70,10 @@ is_student = True # boolean
 - the process of converting a variable from one type to another data type
 - str(), int(), float(), bool()
 
+### input() 
+- A function that prompts the user to enter data
+- Returns the entered data as string
+
 ### 4.2 Operators
 - Arithmetic: `+`, `-`, `*`, `/`, `%`, `**`
 - Comparison: `==`, `!=`, `<`, `>`, `<=`, `>=`
