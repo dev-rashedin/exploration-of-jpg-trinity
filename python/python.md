@@ -127,6 +127,43 @@ Operators perform actions on values.
 | %       | Modulus      | 10 % 3 → 1 |
 | **      | Power        | 2 ** 3 → 8 |
 
+
+### Built in math functions
+x = 3.14
+y = -4
+z = 5
+
+# result = round(x)
+
+# result = abs(y)
+
+# result = pow(4, 3)
+
+# result = max(x, y, z)
+
+result = min(x, y, z)
+
+print(result)
+
+
+### Math modules
+
+import math
+
+print(math.pi)
+print(math.e)
+
+result = math.sqrt(16)
+
+result = math.ceil(2.1)
+
+result = math.floor(2.9)
+
+print(result)
+
+
+## If statement
+
 ### Comparison Operators
 Used to compare values (returns True or False):
 
