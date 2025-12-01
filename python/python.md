@@ -54,12 +54,21 @@ This design explains why Python is slower than C but highly flexible, easy to de
 ## 4. Python Basics
 
 ### 4.1 Variables and Data Types
+
+- Variable = A container for a value (string, number, object, etc.)
+- Variables are case-sensitive
+
+
 ```python
 name = "Alice"   # string
 age = 25         # integer
 height = 5.7     # float
 is_student = True # boolean
 ```
+
+### Typecasting
+- the process of converting a variable from one type to another data type
+- str(), int(), float(), bool()
 
 ### 4.2 Operators
 - Arithmetic: `+`, `-`, `*`, `/`, `%`, `**`
