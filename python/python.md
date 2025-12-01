@@ -265,6 +265,21 @@ name.count("a") # Returns the number of times a specified value occurs in a stri
 number.replace("", "-") # Replaces all occurrences of a specified value with another value
 ```
 
+
+## Indexing in String
+
+```
+credit_number = "1234-45445-43213-1341"
+
+credit_number[0] # gives the first character in the string
+
+credit_number[0: 4] # gives the first 4 characters in the string
+credit_number[: 4] # gives the first 4 characters in the string
+credit_number[4: 8] # gives the next 4 characters in the credit_number[5:] # gives all characters after the 5th character in the string
+credit_number[-3] # gives the number form the end
+credit_number[0 : 4 : 2] # gives the first 4 characters in the string with a step of 2
+credit_number[::2] # gives all characters in the string with a step of 2
+```
 ---
 
 ## Example Program Using Everything
