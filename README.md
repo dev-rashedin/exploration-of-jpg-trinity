@@ -1,10 +1,10 @@
-# Exploration of JPG Trinity
+# Exploration of the JPG Trinity
 
+## A Journey into the World of the JPG (JavaScript, Python & Golang) Trinity
+From basic concepts to advanced topics, including problem-solving and practical projects.
 
-## A Journey to the world of JPG (JavaScript, Python & Golang) Trinity. Basic-to-advanced concepts, problem solving and practical projects
+## Learning Resources
 
-
-### Resources I'm Learning From
-
- - (Python Official Docs)[https://www.python.org/]
- - (Python Crash Course by Mosh Hamedani)[]https://youtu.be/K5KVEU3aaeQ?si=Qs9EeVUV1jcUUfGg
+### Python
+- [Python Official Documentation](https://www.python.org/)
+- [Python Crash Course by Mosh Hamedani](https://youtu.be/K5KVEU3aaeQ?si=Qs9EeVUV1jcUUfGg)
