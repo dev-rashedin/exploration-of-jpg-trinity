@@ -1,6 +1,7 @@
-# Exploration of Python
+# Exploration of JPG Trinity
 
-## A Journey to the world of Python. Basic-to-advanced concepts, problem solving and practical projects
+
+## A Journey to the world of JPG (JavaScript, Python & Golang) Trinity. Basic-to-advanced concepts, problem solving and practical projects
 
 
 ### Resources I'm Learning From
