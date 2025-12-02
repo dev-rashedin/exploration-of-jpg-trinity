@@ -303,25 +303,23 @@ print("Is your age even?", age % 2 == 0)
 ```
 
 
-### 4.3 Control Flow
-```python
-if age >= 18:
-    print("Adult")
-else:
-    print("Minor")
-```
 
-### 4.4 Loops
+### 4.3 Loops
 ```python
 # for loop
 for i in range(5):
     print(i)
 
-# while loop
-count = 0
-while count < 5:
-    print(count)
-    count += 1
+# while loop 
+# execute some code WHILE some condition remain true
+
+name = input('Enter your name: ')
+
+while  name == '':
+  print('You did not enter your name')
+  name = input('Enter your name: ')
+else:
+  print(f'Hello {name}')
 ```
 
 ### 4.5 Functions
