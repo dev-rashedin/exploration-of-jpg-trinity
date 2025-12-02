@@ -133,13 +133,13 @@ x = 3.14
 y = -4
 z = 5
 
-# result = round(x)
+- result = round(x)
 
-# result = abs(y)
+- result = abs(y)
 
-# result = pow(4, 3)
+- result = pow(4, 3)
 
-# result = max(x, y, z)
+- result = max(x, y, z)
 
 result = min(x, y, z)
 
@@ -268,6 +268,9 @@ number.replace("", "-") # Replaces all occurrences of a specified value with ano
 
 ## Indexing in String
 
+- Accessing element of a sequence using [] (indexing operator)
+- [start: end : stop]
+
 ```
 credit_number = "1234-45445-43213-1341"
 
@@ -338,11 +341,6 @@ person = {"name": "Alice", "age": 25}
 print(person["name"])  # Alice
 ```
 
-### 4.7 Basic Input/Output
-```python
-name = input("Enter your name: ")
-print(f"Hello, {name}!")
-```
 
 ---
 
