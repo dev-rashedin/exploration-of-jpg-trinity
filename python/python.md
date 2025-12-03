@@ -306,9 +306,6 @@ print("Is your age even?", age % 2 == 0)
 
 ### 4.3 Loops
 ```python
-# for loop
-for i in range(5):
-    print(i)
 
 # while loop 
 # execute some code WHILE some condition remain true
@@ -320,6 +317,31 @@ while  name == '':
   name = input('Enter your name: ')
 else:
   print(f'Hello {name}')
+
+# For loops 
+# execute a block of code a fixed number of times. 
+# You can iterate over a range, string, sequence, etc 
+
+
+for x in (range(1, 11)):
+  print(x)
+
+
+for x in reversed(range(1, 11)):
+  print(x)
+
+
+for x in range(1, 11, 2):
+  print(x)
+
+# the first parameter in range is the start value
+# the second parameter is the end value
+# the third parameter is the step value
+
+# For loop is count based (when we know how many time it's going to run)
+
+# While loop is condition based (when we don't know how many time it's going to run)
+
 ```
 
 ### 4.5 Functions
