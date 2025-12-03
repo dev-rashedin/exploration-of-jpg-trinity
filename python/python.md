@@ -343,7 +343,7 @@ for x in range(1, 11, 2):
 # While loop is condition based (when we don't know how many time it's going to run)
 
 # nested loop 
-# A loop within another loop (outer, inner)
+# a loop within another loop (outer, inner)
 # outer loop:
 #   inner loop:
 
