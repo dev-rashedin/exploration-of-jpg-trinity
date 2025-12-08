@@ -4,11 +4,12 @@
 # Tuple = () ordered and unchangeable. Duplicates OK. FASTER
 
 
-fruits = ['apple', 'banana', 'cherry', 'orange']  # list in python, array in js, vector in golang
+# list in python, array in js, vector in golang
+fruits = ['apple', 'banana', 'cherry', 'orange']
 
 # print(fruits[0])
 
-# print(fruits[::-1]) 
+# print(fruits[::-1])
 
 # for fruit in fruits:
 #   print(fruit)
@@ -25,5 +26,5 @@ fruits = ['apple', 'banana', 'cherry', 'orange']  # list in python, array in js,
 # fruits[1] = 'pineapple' # change item
 # print(fruits)
 
-fruits.append('mango') # add item to the end of the list
+fruits.append('mango')  # add item to the end of the list
 print(fruits)
