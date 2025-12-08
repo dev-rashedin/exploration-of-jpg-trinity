@@ -41,13 +41,60 @@ print("Hello, world!")
 
 ## 3. How Python Runs
 
-Python is an **interpreted language**, meaning it doesn't compile directly to machine code. It runs inside a **Python interpreter**.  
-There are several implementations:
-- **CPython**: The standard implementation in C. Most widely used.  
-- **Jython**: Python that runs on the Java Virtual Machine (JVM).  
-- **PyPy**: Python with a Just-In-Time (JIT) compiler for faster execution.
+Python is commonly called an **interpreted language**, but its process is a mix of interpreting and compiling.
 
-This design explains why Python is slower than C but highly flexible, easy to debug, and platform-independent.
+### How Python Executes Code (Step by Step)
+
+When you run a Python file:
+
+1. **You write `.py` code**  
+2. Python **compiles it into bytecode** (`.pyc` files)  
+3. The **Python Virtual Machine (PVM)** executes the bytecode  
+
+This makes Python flexible and portable.
+
+---
+
+## Different Implementations of Python
+
+### 1. CPython (The Default)
+
+- Most popular version  
+- Written in C  
+- Converts Python code → bytecode → interprets it  
+- What you get when you install Python from python.org
+
+### 2. Jython
+
+- Runs Python on the **Java Virtual Machine (JVM)**  
+- Lets you use Java libraries in Python  
+- Useful in Java-heavy companies
+
+### 3. PyPy
+
+- Faster implementation of Python  
+- Uses a **Just-In-Time (JIT)** compiler  
+- Good for performance-heavy tasks
+
+---
+
+## Why Python Uses This Design
+
+Python focuses on:
+
+- **simplicity**
+- **developer productivity**
+- **flexibility**
+
+If Python compiled directly to machine code like C or Go:
+
+- code would be harder to write  
+- dynamic typing would be more limited  
+- debugging would be less friendly  
+
+Python chooses simplicity and flexibility over raw speed, which is why it remains one of the best beginner languages.
+
+---
 
 ---
 
