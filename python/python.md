@@ -484,6 +484,29 @@ fruits.pop() # To remove the last item from the set (It will be random)
 fruits.clear() # To clear the set
 ```
 
+```python
+# tuple in python, array in js, vector in golang
+# tuple are ordered and unchangeable. Duplicates OK, Faster than lists
+fruits = ('apple', 'banana', 'cherry', 'orange')
+
+print(dir(fruits)) # To get all the methods
+
+print(help(fruits)) # To get all the methods
+
+print(len(fruits)) # To get the length of the tuple
+
+print('apple' in fruits) # To check if the item is in the tuple
+
+print('pineapple' in fruits) # To check if the item is in the tuple
+
+fruits.index('apple') # To get the index of the item
+
+fruits.count('apple') # To get the number of times the item is in the tuple
+
+for fruit in fruits:
+  print(fruit)
+```
+
 ### 4.5 Functions
 ```python
 def greet(name):
