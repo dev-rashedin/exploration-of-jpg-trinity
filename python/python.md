@@ -402,6 +402,88 @@ for x in range(3):
 
 ```
 
+## collections = single "variable" used to store multiple values
+### List = [] ordered and changeable, Duplicates OK
+### Set  = {} unordered and immutable, but Add/Remove OK. NO Duplicates
+### Tuple = () ordered and unchangeable. Duplicates OK. FASTER
+
+### List
+
+```python
+# list in python, array in js, vector in golang
+fruits = ['apple', 'banana', 'cherry', 'orange']
+
+print(fruits[0]) # comment to describe it
+
+print(fruits[::-1]) # comment to describe it
+
+for fruit in fruits: # comment to describe it
+# print(fruit)
+
+dir(fruits) # To get all the methods
+
+help(fruits) # comment to describe it
+
+len(fruits) # comment to describe it
+
+print('apple' in fruits) # comment to describe it 
+print('pineapple' in fruits) # comment to describe it
+
+fruits[1] = 'pineapple' # change item
+
+fruits.append('mango')  # add item to the end of the list
+
+fruits.remove('apple') # remove item
+
+fruits.insert(1, 'kiwi') # insert item at preferred index
+
+fruits.insert(0, 'apple')
+
+fruits.sort() # sort the list in the alphabetical order
+
+fruits.reverse()  # reverse the list
+
+# fruits.clear() # clear the list
+
+appleIndex = fruits.index('apple') # returns the index of the item
+
+print(appleIndex)
+
+bananaCount = fruits.count('banana') # returns the number of times the item appears in the list
+
+print(bananaCount)
+```
+
+# Set
+```python
+# sets in python, array in js, vector in golang  
+
+# we cannot access items by index
+# we cannot change items
+# we can add items
+# we can remove items
+
+fruits = {'apple', 'banana', 'cherry', 'orange'}
+
+print(dir(fruits)) # To get all the methods
+
+print(help(fruits)) # To get all the methods
+
+print(len(fruits)) # To get the length of the set
+
+print('apple' in fruits) # To check if the item is in the set
+
+print('pineapple' in fruits) # To check if the item is in the set
+
+fruits.add('mango') # To add item to the set
+
+fruits.remove('apple') # To remove item from the set
+
+fruits.pop() # To remove the last item from the set (It will be random)
+
+fruits.clear() # To clear the set
+```
+
 ### 4.5 Functions
 ```python
 def greet(name):
@@ -418,7 +500,6 @@ print(fruits[0])  # apple
 person = {"name": "Alice", "age": 25}
 print(person["name"])  # Alice
 ```
-
 
 ---
 
