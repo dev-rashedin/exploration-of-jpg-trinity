@@ -1,16 +1,3 @@
-⠀⠀⠀⠀⠀⠀⢀⣤⣴⣶⣶⣶⣶⣶⣦⣄⠀⠀⠀⠀⠀⠀⠀⠀⠀
-⠀⠀⠀⠀⠀⠀⢀⣾⠟⠛⢿⣿⣿⣿⣿⣿⣿⣷⠀⠀⠀⠀⠀⠀⠀⠀
-⠀⠀⠀⠀⠀⠀⢸⣿⣄⣀⣼⣿⣿⣿⣿⣿⣿⣿⠀⢀⣀⣀⣀⡀⠀⠀
-⠀⠀⠀⠀⠀⠀⠈⠉⠉⠉⠉⠉⠉⣿⣿⣿⣿⣿⠀⢸⣿⣿⣿⣿⣦⠀
-⠀⣠⣾⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠀⢸⣿⣿⣿⣿⣿⡇
-⢰⣿⣿⣿⣿⣿⣿⣿⣿⠿⠿⠿⠿⠿⠿⠿⠿⠋⠀⣼⣿⣿⣿⣿⣿⡇
-⢸⣿⣿⣿⣿⣿⡿⠉⢀⣠⣤⣤⣤⣤⣤⣤⣤⣴⣾⣿⣿⣿⣿⣿⣿⡇
-⢸⣿⣿⣿⣿⣿⡇⠀⣾⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡿⠀
-⠘⣿⣿⣿⣿⣿⡇⠀⣿⣿⣿⣿⣿⠛⠛⠛⠛⠛⠛⠛⠛⠛⠋⠁⠀⠀
-⠀⠈⠛⠻⠿⠿⠇⠀⣿⣿⣿⣿⣿⣿⣿⣿⠿⠿⣿⡇⠀⠀⠀⠀⠀⠀
-⠀⠀⠀⠀⠀⠀⠀⠀⣿⣿⣿⣿⣿⣿⣿⣧⣀⣀⣿⠇⠀⠀⠀⠀⠀⠀
-⠀⠀⠀⠀⠀⠀⠀⠀⠘⢿⣿⣿⣿⣿⣿⣿⣿⡿⠋⠀⠀⠀⠀
-⠀⠀⠀
 # Beginner-Friendly Guide to Python
 
 *A complete guide for absolute beginners — simple English, clear examples.*
@@ -84,7 +71,6 @@ This makes Python flexible and portable.
 - Uses a **Just-In-Time (JIT)** compiler  
 - Good for performance-heavy tasks
 
----
 
 ## Why Python Uses This Design
 
@@ -102,13 +88,11 @@ If Python compiled directly to machine code like C or Go:
 
 Python chooses simplicity and flexibility over raw speed, which is why it remains one of the best beginner languages.
 
----
 
 ## 4. Python Basics
 
 Python is simple, but powerful. This section explains its core building blocks in beginner‑friendly language with examples.
 
----
 
 ## 4.1 Variables and Data Types
 
@@ -128,7 +112,6 @@ height = 5.7         # float
 is_student = True    # boolean
 ```
 
----
 
 ## Typecasting
 
@@ -147,7 +130,6 @@ age_number = int(age)   # "25" → 25 (integer)
 print(type(age_number))
 ```
 
----
 
 ## input()
 
@@ -164,7 +146,6 @@ print("Hello,", name)
 print("You are", age, "years old")
 ```
 
----
 
 ## 4.2 Operators
 
@@ -336,7 +317,6 @@ credit_number[-3] # gives the number form the end
 credit_number[0 : 4 : 2] # gives the first 4 characters in the string with a step of 2
 credit_number[::2] # gives all characters in the string with a step of 2
 ```
----
 
 ## Example Program Using Everything
 ```python
@@ -519,7 +499,6 @@ person = {"name": "Alice", "age": 25}
 print(person["name"])  # Alice
 ```
 
----
 
 ## 5. Conclusion
 
