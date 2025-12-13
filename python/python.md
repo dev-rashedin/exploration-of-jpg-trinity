@@ -505,14 +505,45 @@ def greet(name):
 print(greet("Alice"))
 ```
 
-### 4.6 Lists and Dictionaries
+### 4.6 Dictionaries
+
+# dictionary = a collection of {key:value} pairs
+#              ordered and changeable. No duplicates
+
 
 ```python
-fruits = ["apple", "banana", "cherry"]
-print(fruits[0])  # apple
+capitals = {
+  "Bangladesh": "Dhaka",
+  "Sweden": "Stockholm",
+  "Finland": "Helsinki",
+  "Iceland": "Reykjavik",
+  "Germany": "Berlin",
+  "UK": "London",
+  "USA": "Washington DC",
+  "Japan": "Tokyo"
+}
 
-person = {"name": "Alice", "age": 25}
-print(person["name"])  # Alice
+
+capitals.get("Bangladesh") # To get the value of the key
+
+capitals.get("China") # Will return none as it is not in the dictionary
+
+capitals.keys() # To get all the keys
+
+capitals.values() # To get all the values
+
+capitals.update({"Australia": "Canberra"}) # To add or update item to the dictionary
+
+capitals.pop("Australia") # To remove item from the dictionary
+
+capitals.popitem() # To remove last item from the dictionary
+
+capitals.clear() # To clear all the items from the dictionary
+
+capitals.items() # To get all the items
+
+for key, value in capitals.items():
+  print(key, value)
 ```
 
 ## 5. Conclusion
