@@ -399,14 +399,15 @@ for x in range(3):
 
 ```
 
-# Python Collections — Lists, Sets, Tuples (Unified, Clean, Non-Breaking Block)
+# Python Collections
 
-Python has three main collection types used to store multiple values.
+- Collection in python is a single "variable" used to store multiple values
+- Python has three main collection types used to store multiple values.
 
 TYPE OVERVIEW
 
 List [] → Ordered, changeable, allows duplicates  
-Set {} → Unordered, unique items only, add/remove allowed  
+Set {} → Unordered and immutable, unique items only, add/remove allowed  
 Tuple () → Ordered, unchangeable, allows duplicates, faster than lists
 
 WHEN TO USE WHAT
@@ -448,17 +449,18 @@ for fruit in fruits_tuple:
 # Add item → only list and set
 fruits_list.append('mango')  # add to end of list
 fruits_set.add('mango')      # add to set
-# fruits_tuple.append('mango') → Not supported because tuples are immutable (unchangeable)
+# append and add methods are not supported in tuples because they are immutable (unchangeable)
 
 # Remove item → only list and set
 fruits_list.remove('banana') # remove by value
 fruits_set.remove('banana')  # remove by value
-# fruits_tuple.remove('banana') → Not supported because tuples cannot be modified after creation
+# remove is not supported in tuples because they are immutable (unchangeable)
 
 # Clear all → only list and set
 fruits_list.clear()          # empties the list
 fruits_set.clear()           # empties the set
-# fruits_tuple.clear() → Not supported because tuples are immutable
+
+# clear methods is not supported in tuples because they are immutable (unchangeable)
 
 # -----------------------
 # List-specific methods
@@ -467,7 +469,8 @@ fruits_list.insert(1, 'kiwi')  # insert at specific index
 fruits_list.sort()              # sort alphabetically
 fruits_list.reverse()           # reverse order
 fruits_list[0]                  # access by index
-# Not supported in set or tuple:
+
+# Not supported in set or tuple, because:
 # - insert → sets are unordered, tuples are immutable
 # - sort → sets are unordered, tuples are immutable
 # - reverse → sets are unordered, tuples are immutable
@@ -476,7 +479,7 @@ fruits_list[0]                  # access by index
 # -----------------------
 # Set-specific methods
 # -----------------------
-fruits_set.pop()               # remove random item (since set is unordered, no index)
+fruits_set.pop()  # remove random item (since set is unordered, no index)
 # Auto-uniqueness → {'apple', 'apple'} becomes {'apple'} (cannot have duplicates)
 # Not supported in list: pop() removes last item, not random
 # Not supported in tuple: tuples are immutable, cannot remove items
@@ -484,6 +487,7 @@ fruits_set.pop()               # remove random item (since set is unordered, no 
 # -----------------------
 # Tuple-specific methods
 # -----------------------
+
 fruits_tuple.count('apple')    # count occurrences
 fruits_tuple.index('banana')   # find position of item
 # Not supported in list/set in same way:
