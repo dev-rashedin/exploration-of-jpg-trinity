@@ -1,9 +1,20 @@
-
-# 🐍 Beginner-Friendly Guide to Python
+⠀⠀⠀⠀⠀⠀⢀⣤⣴⣶⣶⣶⣶⣶⣦⣄⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⢀⣾⠟⠛⢿⣿⣿⣿⣿⣿⣿⣷⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⢸⣿⣄⣀⣼⣿⣿⣿⣿⣿⣿⣿⠀⢀⣀⣀⣀⡀⠀⠀
+⠀⠀⠀⠀⠀⠀⠈⠉⠉⠉⠉⠉⠉⣿⣿⣿⣿⣿⠀⢸⣿⣿⣿⣿⣦⠀
+⠀⣠⣾⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠀⢸⣿⣿⣿⣿⣿⡇
+⢰⣿⣿⣿⣿⣿⣿⣿⣿⠿⠿⠿⠿⠿⠿⠿⠿⠋⠀⣼⣿⣿⣿⣿⣿⡇
+⢸⣿⣿⣿⣿⣿⡿⠉⢀⣠⣤⣤⣤⣤⣤⣤⣤⣴⣾⣿⣿⣿⣿⣿⣿⡇
+⢸⣿⣿⣿⣿⣿⡇⠀⣾⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡿⠀
+⠘⣿⣿⣿⣿⣿⡇⠀⣿⣿⣿⣿⣿⠛⠛⠛⠛⠛⠛⠛⠛⠛⠋⠁⠀⠀
+⠀⠈⠛⠻⠿⠿⠇⠀⣿⣿⣿⣿⣿⣿⣿⣿⠿⠿⣿⡇⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⣿⣿⣿⣿⣿⣿⣿⣧⣀⣀⣿⠇⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠘⢿⣿⣿⣿⣿⣿⣿⣿⡿⠋⠀⠀⠀⠀
+⠀⠀⠀
+# Beginner-Friendly Guide to Python
 
 *A complete guide for absolute beginners — simple English, clear examples.*
 
----
 
 ## 1. What is Python?
 
@@ -16,7 +27,6 @@ Python is famous because it is readable and simple. Example:
 print("Hello, world!")
 ```
 
----
 
 ## 2. A Short History of Python
 
@@ -37,7 +47,6 @@ print("Hello, world!")
 - Huge ecosystem: Django, Flask, NumPy, Pandas, TensorFlow, etc.  
 - High demand in 2026: Backend developers, AI/ML engineers, and data scientists prefer Python.
 
----
 
 ## 3. How Python Runs
 
@@ -53,7 +62,6 @@ When you run a Python file:
 
 This makes Python flexible and portable.
 
----
 
 ## Different Implementations of Python
 
@@ -404,15 +412,12 @@ for x in range(3):
 
 Python has three main collection types used to store multiple values.
 
----------------------------------------------------------------------
-
 TYPE OVERVIEW
 
 List  []  → Ordered, changeable, allows duplicates  
 Set   {}  → Unordered, unique items only, add/remove allowed  
 Tuple ()  → Ordered, unchangeable, allows duplicates, faster than lists
 
----------------------------------------------------------------------
 
 WHEN TO USE WHAT
 
@@ -420,7 +425,6 @@ List  → You need order + frequent updates
 Set   → You need uniqueness + fast membership check  
 Tuple → You need safe, read-only, faster data storage  
 
----------------------------------------------------------------------
 
 COMMON FEATURES (all 3 support these)
 
@@ -432,7 +436,6 @@ COMMON FEATURES (all 3 support these)
 
 These work for lists, sets, and tuples.
 
----------------------------------------------------------------------
 
 OPERATIONS: WHO CAN DO WHAT
 
@@ -466,7 +469,6 @@ OPERATIONS: WHO CAN DO WHAT
 • Count occurrences → count('apple')  
 • Find index → index('apple')
 
----------------------------------------------------------------------
 
 LIST EXAMPLE (ordered + mutable)
 
@@ -476,7 +478,6 @@ fruits[0]          # access first item
 fruits.sort()      # alphabetical sort
 'apple' in fruits  # True
 
----------------------------------------------------------------------
 
 SET EXAMPLE (unique + unordered)
 
@@ -485,7 +486,6 @@ fruits = {'apple', 'banana', 'apple'}
 fruits.add('orange')
 'apple' in fruits   # True
 
----------------------------------------------------------------------
 
 TUPLE EXAMPLE (ordered + immutable)
 
@@ -494,7 +494,6 @@ fruits[0]               # 'apple'
 fruits.count('apple')   # occurrences
 fruits.index('banana')  # position
 
----------------------------------------------------------------------
 
 SUMMARY IN ONE LINE
 
