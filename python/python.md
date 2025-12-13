@@ -96,8 +96,6 @@ Python chooses simplicity and flexibility over raw speed, which is why it remain
 
 ---
 
----
-
 ## 4. Python Basics
 
 Python is simple, but powerful. This section explains its core building blocks in beginner‑friendly language with examples.
