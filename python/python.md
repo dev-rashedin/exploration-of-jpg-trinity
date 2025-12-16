@@ -11,7 +11,7 @@ Python is famous because it is readable and simple. Example:
 
 ```python
 print("Hello, world!")
-```
+``` 
 
 ## 2. A Short History of Python
 
@@ -199,7 +199,7 @@ result = math.floor(2.9)
 print(result)
 ```
 
-# if Statement
+## if Statement
 
 - Do some code only if some condition is True
 - Else do something else
@@ -217,6 +217,25 @@ elif age < 0:
 else:
     print('You are not eligible to open an account')
 ```
+
+## match case statement
+ - An alternative to using many 'elif' statements
+ - Execute some code if a value matches a 'case'
+ - Benefits: cleaner and syntax is more readable
+
+```python
+def is_weekend(day):
+    match day:
+        case "Monday" | "Tuesday" | "Wednesday" | "Thursday" | "Friday":
+            return False
+        case "Saturday" | "Sunday":
+            return True
+        case _:
+            return False
+
+print(is_weekend("Sunday"))
+```
+
 
 ### Comparison Operators
 
