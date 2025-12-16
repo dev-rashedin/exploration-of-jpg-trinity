@@ -831,6 +831,31 @@ ONE-LINE SUMMARY
  - *args = many positional inputs  
  - **kwargs = many named inputs  
 
+
+## Module
+ - Module is a file containing code you want to include in your program
+ - We need to use 'import' to include a module (built-in or our own code)
+ - It's useful to break up a large program reusable separate files
+
+```python
+# importing built in module
+import math
+import math as m
+from math import pi
+
+import module_example # importing our own code
+
+print(help("modules"))  # to get all the modules
+
+result = module_example.square(3)
+
+print(result)
+
+# Some common built in modules
+math #
+...
+```
+
 ## 5. Conclusion
 
 Python is **beginner-friendly**, **versatile**, and has a **huge ecosystem**.  
