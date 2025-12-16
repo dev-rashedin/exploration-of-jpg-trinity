@@ -35,8 +35,11 @@ numbers = [1, -4, 8, -9, -2, 6, 3, -1, 5, -7, 6, 8, 12, 3, 5, 7]
 
 # print(positive_num)
 
-even_num = [ num for num in numbers if num > 0 and num % 2 == 0]
-odd_num = [ num for num in numbers if num > 0 and num % 2 == 1]
+# even_num = [ num for num in numbers if num > 0 and num % 2 == 0]
+# odd_num = [ num for num in numbers if num > 0 and num % 2 == 1]
+
+even_num = [num for num in numbers if num % 2 == 0]
+odd_num = [num for num in numbers if num % 2 ==1]
 
 print(even_num)
 print(odd_num)
