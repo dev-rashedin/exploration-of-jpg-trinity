@@ -496,6 +496,123 @@ fruits_tuple.index('banana')   # find position of item
 
 ```
 
+### 4.5 Dictionaries (dict) — Key-Value Data Structure
+
+A dictionary is a collection of **key : value** pairs.
+
+Think of it like:
+- a real dictionary → *word : meaning*
+- a phone book → *name : number*
+
+KEY PROPERTIES
+
+• Written using `{}`  
+• Keys must be **unique**  
+• Ordered (Python 3.7+)  
+• Changeable (mutable)  
+• Fast lookup by key  
+
+```python
+
+# CREATING A DICTIONARY
+
+capitals = {
+    "Bangladesh": "Dhaka",
+    "Sweden": "Stockholm",
+    "Finland": "Helsinki",
+    "Iceland": "Reykjavik",
+    "Germany": "Berlin",
+    "UK": "London",
+    "USA": "Washington DC",
+    "Japan": "Tokyo"
+}
+
+
+# ACCESSING VALUES
+
+capitals["Bangladesh"]      
+# Direct access → returns "Dhaka"
+# ❌ Error if key does not exist
+
+capitals.get("Bangladesh")  
+# Safe access → returns "Dhaka"
+
+capitals.get("China")       
+# Returns None instead of error (recommended)
+
+
+# GETTING KEYS, VALUES, ITEMS
+
+capitals.keys()   
+# Returns all keys
+
+capitals.values() 
+# Returns all values
+
+capitals.items()  
+# Returns (key, value) pairs
+
+
+# ADDING OR UPDATING ITEMS
+
+
+capitals["Australia"] = "Canberra"
+# Adds new key-value pair
+
+capitals["USA"] = "Washington D.C."
+# Updates existing value
+
+capitals.update({"France": "Paris"})
+# Add or update using update()
+
+
+# REMOVING ITEMS
+
+capitals.pop("France")
+# Removes specific key
+
+capitals.popitem()
+# Removes the LAST inserted item (because dict is ordered)
+
+capitals.clear()
+# Removes all items
+
+
+# CHECKING MEMBERSHIP
+
+"Japan" in capitals
+# True → checks keys only
+
+"Tokyo" in capitals
+# False → values are NOT checked
+
+# LOOPING THROUGH DICTIONARY
+
+for key, value in capitals.items():
+    print(key, "→", value)
+
+Explanation:
+- `.items()` gives both key and value
+- Most common way to loop dictionaries
+
+```
+
+When to use dictionary
+
+ - You need fast lookup  
+ - You need meaningful keys  
+ - You want structured data  
+
+Example use cases:
+- user_id → user_data
+- country → capital
+- config_name → config_value
+
+One line summary
+ - Dictionary = ordered, mutable key-value storage with fast access
+
+---
+
 ## 4.6 Functions
 
  - A function is a **block of reusable code**.  
@@ -694,48 +811,6 @@ ONE-LINE SUMMARY
  - Return = output  
  - *args = many positional inputs  
  - **kwargs = many named inputs  
-
-
-### 4.5 Dictionaries
-
-# dictionary = a collection of {key:value} pairs
-#              ordered and changeable. No duplicates
-
-
-```python
-capitals = {
-  "Bangladesh": "Dhaka",
-  "Sweden": "Stockholm",
-  "Finland": "Helsinki",
-  "Iceland": "Reykjavik",
-  "Germany": "Berlin",
-  "UK": "London",
-  "USA": "Washington DC",
-  "Japan": "Tokyo"
-}
-
-
-capitals.get("Bangladesh") # To get the value of the key
-
-capitals.get("China") # Will return none as it is not in the dictionary
-
-capitals.keys() # To get all the keys
-
-capitals.values() # To get all the values
-
-capitals.update({"Australia": "Canberra"}) # To add or update item to the dictionary
-
-capitals.pop("Australia") # To remove item from the dictionary
-
-capitals.popitem() # To remove last item from the dictionary
-
-capitals.clear() # To clear all the items from the dictionary
-
-capitals.items() # To get all the items
-
-for key, value in capitals.items():
-  print(key, value)
-```
 
 ## 5. Conclusion
 
