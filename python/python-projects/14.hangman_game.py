@@ -2,7 +2,7 @@
 
 import random
 
-words = ("apple", "orange", "banana", "coconut", "pineapple")
+from word_file import words
 
 
 # dictionary of key: ()
