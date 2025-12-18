@@ -6,12 +6,12 @@ def main():
     secret_code = ''
     lines = poem.split('\n')
     for line_index, line in enumerate(lines):
-      for words in line.split():
-        if len(words) > line_index:
-          secret_code += str(len(words[line_index])) 
-        else:
-          secret_code += '0'
-    print(secret_code)
+      words = line.split()
+      if len(words) > line_index:
+        secret_code += str(len(words[line_index]))
+      else:
+        secret_code += '0'
+    return secret_code
 
 
   poem = """Stars and the moon
@@ -19,7 +19,7 @@ def main():
   white and
   until the end of the night"""
 
-  pin_extractor(poem)
+  print(pin_extractor(poem))
 
 
 if __name__ == '__main__':
